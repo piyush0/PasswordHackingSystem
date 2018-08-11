@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme.NoActionBar">
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:windowBackground">@drawable/splash</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+                <item name="android:statusBarColor">@android:color/transparent</item>
+                <item name="android:typeface">sans</item>
+        </style>
+
+        <style name="Theme.AppTheme.Terminal" parent="Theme.AppCompat.NoActionBar" >
+                <item name="android:progressBarStyleHorizontal">@android:style/Widget.ProgressBar.Horizontal</item>
+                <item name="android:textColorTertiary">#40ff60</item>
+                <item name="android:textColorPrimary">#40ff60</item>
+                <item name="android:textColorSecondary">#40ff60</item>
+                <item name="android:textColorSecondaryInverse">#40ff60</item>
+                <item name="android:textColorPrimaryInverse">#40ff60</item>
+                <item name="android:typeface">sans</item>
+        </style>
+</resources>
